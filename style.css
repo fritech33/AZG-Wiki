@@ -1,5 +1,5 @@
 /* Blendet die Buttons im Header/Sidebar visuell aus */
-header button {
+header button:not(.w-full) {
   display: none !important;
 }
 
