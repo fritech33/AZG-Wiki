@@ -24,7 +24,13 @@
     "prompt": "Suchen …"
   },
   "contextual": {
-    "options": ["copy", "view", "chatgpt", "claude"]
+    "options": [
+      "copy",
+      "view",
+      "chatgpt",
+      "claude"
+    ],
+    "display": "toc"
   },
   "metadata": {
     "timestamp": true
