@@ -78,6 +78,6 @@
     "options": [
       "download-pdf"
     ],
-    "display": "header"
+    "display": "toc"
   }
 }
