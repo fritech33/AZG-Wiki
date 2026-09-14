@@ -15,3 +15,11 @@ nav > a {
   border-radius: 2pt;
   border-color: var(--tw-prose-headings);
 }
+
+.link {
+    color: rgb(var(--primary-dark));
+}
+
+.dark .link {
+    color: rgb(var(--primary-light));
+}
