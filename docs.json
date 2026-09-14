@@ -33,8 +33,6 @@
     "languages": [
       {
         "language": "de",
-        "default": true,
-        "hidden": true,
         "groups": [
           {
             "group": "Überblick",
