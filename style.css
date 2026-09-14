@@ -1,5 +1,5 @@
 /* Blendet die Buttons im Header/Sidebar visuell aus */
-header button:not(.w-full) {
+header button:not(.w-full), #search-bar-entry {
   display: none !important;
 }
 
