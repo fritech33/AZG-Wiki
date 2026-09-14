@@ -56,13 +56,7 @@
   "styling": {
     "eyebrows": "breadcrumbs"
   },
-  "redirects": [
-    {
-      "source": "/",
-      "destination": "/Start",
-      "permanent": true
-    }
-  ],
+  "redirects": [],
   "errors": {
     "404": {
       "redirect": false,
