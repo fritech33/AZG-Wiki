@@ -1,0 +1,49 @@
+{
+  "projectType": "general",
+  "projectName": "AZG-Wiki",
+  "projectDescription": "Eine deutschsprachige Referenz-Wiki zu den Arbeitszeitvorschriften des Schweizer Arbeitszeitgesetzes (AZG) für Angestellte im Fahrdienst bei Bahnen, Busbetrieben und Seilbahnen.",
+  "theme": "almond",
+  "primaryColor": "#ef7025",
+  "lightColor": "#eec9bc",
+  "darkColor": "#4fa1ab",
+  "navigation": {
+    "groups": [
+      {
+        "group": "Überblick",
+        "pages": ["Start"]
+      },
+      {
+        "group": "AZG-Regelungen",
+        "pages": [
+          "Arbeitszeit_pro_Arbeitstag",
+          "Pausen_und_Arbeitsunterbrechung",
+          "Die_Ruheschicht",
+          "Die_Ruhetage",
+          "Ferien"
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Maximale Arbeitszeit pro Dienstschicht (10 Stunden)",
+    "Nachtarbeit-Zeitzuschläge (10 %, 30 %, 40 %)",
+    "Pikettdienst-Regelungen",
+    "Pausen- und Arbeitsunterbrechungsvorschriften",
+    "Ruheschicht-Mindestdauern (Ø 12 Stunden über 28 Tage)",
+    "Nachtarbeits-Maxima (7-mal hintereinander, 15 Nächte pro 28 Tage)",
+    "63 bezahlte Ruhetage pro Kalenderjahr",
+    "Mindest-Ruhesonntage und Ferienanspruch"
+  ],
+  "publicApiSurface": [
+    "AZG Art. 4 – Höchstarbeitszeit",
+    "AZG Art. 4a / AZGV Art. 7 – Zeitzuschläge Nachtarbeit",
+    "AZG Art. 4b – Pikettdienst",
+    "AZG Art. 6 / Art. 7 / AZGV Art. 16 – Pausen",
+    "AZG Art. 8 / AZGV Art. 18 – Ruheschicht",
+    "AZG Art. 9 – Nachtarbeit",
+    "AZG Art. 10 – Ruhetage",
+    "AZGV Art. 19 – Ruhesonntage",
+    "AZGV Art. 20 – Ruhetag-Verteilung",
+    "AZGV Art. 22 – Kürzung des Ruhetag-Anspruchs"
+  ]
+}

@@ -1,35 +1,13 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
+  "theme": "almond",
   "name": "AZG-Wiki",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#ef7025",
+    "light": "#eec9bc",
+    "dark": "#4fa1ab"
   },
   "favicon": "/favicon.svg",
-  "navigation": {
-    "languages": [
-      {
-        "language": "de",
-        "default": true,
-        "hidden": true,
-        "pages": [
-          "Start",
-          {
-            "group": "Inhalte",
-            "pages": [
-              "Arbeitszeit_pro_Arbeitstag",
-              "Pausen_und_Arbeitsunterbrechung",
-              "Die_Ruheschicht",
-              "Die_Ruhetage",
-              "Ferien"
-            ]
-          }
-        ]
-      }
-    ]
-  },
   "logo": {
     "light": "/logo/light.svg",
     "dark": "/logo/dark.svg"
@@ -40,20 +18,38 @@
         "href": "mailto:simon.lauber@gmx.ch",
         "label": "Feedback"
       }
-    ]
-  },
-  "contextual": {
-    "options": [
-      "copy",
-      "view",
-      "chatgpt",
-      "claude"
-    ]
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Feedback",
+      "href": "mailto:simon.lauber@gmx.ch"
+    }
   },
   "search": {
-    "prompt": "Suchen oder fragen ..."
+    "prompt": "Suchen oder fragen …"
+  },
+  "contextual": {
+    "options": ["copy", "view", "chatgpt", "claude"]
   },
   "metadata": {
     "timestamp": true
+  },
+  "navigation": {
+    "groups": [
+      {
+        "group": "Überblick",
+        "pages": ["Start"]
+      },
+      {
+        "group": "AZG-Regelungen",
+        "pages": [
+          "Arbeitszeit_pro_Arbeitstag",
+          "Pausen_und_Arbeitsunterbrechung",
+          "Die_Ruheschicht",
+          "Die_Ruhetage",
+          "Ferien"
+        ]
+      }
+    ]
   }
 }
