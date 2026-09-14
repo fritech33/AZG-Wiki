@@ -1,6 +1,4 @@
-/* Blendet die Suchleiste im Header/Sidebar visuell aus */
-#search-bar-anchor, 
-.search-bar-class-name, /* Je nach Mintlify-Version */
-button[aria-label="Search"] {
+/* Blendet die Buttons im Header/Sidebar visuell aus */
+header button {
   display: none !important;
 }
