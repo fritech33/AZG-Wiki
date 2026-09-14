@@ -58,5 +58,12 @@
   },
   "styling": {
     "eyebrows": "breadcrumbs"
-  }
+  },
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "/Startseite",
+      "permanent": true
+    }
+  ]
 }
