@@ -30,19 +30,28 @@
     "timestamp": true
   },
   "navigation": {
-    "groups": [
+    "languages": [
       {
-        "group": "Überblick",
-        "pages": ["Start"]
-      },
-      {
-        "group": "AZG-Regelungen",
-        "pages": [
-          "Arbeitszeit_pro_Arbeitstag",
-          "Pausen_und_Arbeitsunterbrechung",
-          "Die_Ruheschicht",
-          "Die_Ruhetage",
-          "Ferien"
+        "language": "de",
+        "default": true,
+        "hidden": true,
+        "groups": [
+          {
+            "group": "Überblick",
+            "pages": [
+              "Start"
+            ]
+          },
+          {
+            "group": "AZG-Regelungen",
+            "pages": [
+              "Arbeitszeit_pro_Arbeitstag",
+              "Pausen_und_Arbeitsunterbrechung",
+              "Die_Ruheschicht",
+              "Die_Ruhetage",
+              "Ferien"
+            ]
+          }
         ]
       }
     ]
