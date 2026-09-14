@@ -62,7 +62,7 @@
   "redirects": [
     {
       "source": "/",
-      "destination": "/Startseite",
+      "destination": "/Start",
       "permanent": true
     }
   ]
