@@ -7,3 +7,11 @@ header button {
   padding: 8pt 0px !important;
 }
 
+nav > a {
+  border-width: 1px;
+  border-style: solid;
+  border-image: none;
+  padding: 6pt 10pt;
+  border-radius: 2pt;
+  border-color: var(--tw-prose-headings);
+}
