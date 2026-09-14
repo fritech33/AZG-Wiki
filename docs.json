@@ -10,8 +10,17 @@
   "favicon": "/favicon.svg",
   "navigation": {
     "pages": [
-      "untitled-page",
-      "untitled-page-2"
+      "Start",
+      {
+        "group": "Inhalte",
+        "pages": [
+          "Arbeitszeit_pro_Arbeitstag",
+          "Pausen_und_Arbeitsunterbrechung",
+          "Die_Ruheschicht",
+          "Die_Ruhetage",
+          "Ferien"
+        ]
+      }
     ],
     "global": {
       "anchors": [
