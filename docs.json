@@ -50,7 +50,9 @@
               "Ferien"
             ]
           }
-        ]
+        ],
+        "default": true,
+        "hidden": true
       }
     ]
   }
