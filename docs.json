@@ -65,5 +65,12 @@
       "destination": "/Start",
       "permanent": true
     }
-  ]
+  ],
+  "errors": {
+    "404": {
+      "redirect": false,
+      "title": "Seite nicht gefunden",
+      "description": "*Die Seite scheint nicht vorhanden zu sein.*"
+    }
+  }
 }
