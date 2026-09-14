@@ -1,10 +1,8 @@
 // Blockiert die Tastatur-Shortcuts für die Suche (CMD+K, STRG+K und /)
 window.addEventListener('keydown', function(event) {
-  const isMac = navigator.platform.toUpperCase().indexOf('MAC') >= 0;
-  const modifier = isMac ? event.metaKey : event.ctrlKey;
-
+ 
   // 1. Blockiert CMD+K (Mac) bzw. STRG+K (Windows/Linux)
-  if (modifier && event.key.toLowerCase() === 'k') {
+  if ((event.metaKey || event.ctrlKey) && event.key.toLowerCase() === 'k') {
     event.preventDefault();
     event.stopPropagation();
     return false;
