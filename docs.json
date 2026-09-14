@@ -9,16 +9,23 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "pages": [
-      "Start",
+    "languages": [
       {
-        "group": "Inhalte",
+        "language": "de",
+        "default": true,
+        "hidden": true,
         "pages": [
-          "Arbeitszeit_pro_Arbeitstag",
-          "Pausen_und_Arbeitsunterbrechung",
-          "Die_Ruheschicht",
-          "Die_Ruhetage",
-          "Ferien"
+          "Start",
+          {
+            "group": "Inhalte",
+            "pages": [
+              "Arbeitszeit_pro_Arbeitstag",
+              "Pausen_und_Arbeitsunterbrechung",
+              "Die_Ruheschicht",
+              "Die_Ruhetage",
+              "Ferien"
+            ]
+          }
         ]
       }
     ]
@@ -33,12 +40,7 @@
         "href": "mailto:simon.lauber@gmx.ch",
         "label": "Feedback"
       }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://app.mintlify.com"
-    }
+    ]
   },
   "contextual": {
     "options": [
