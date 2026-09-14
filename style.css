@@ -2,3 +2,8 @@
 header button {
   display: none !important;
 }
+
+#footer {
+  padding: 8pt 0px !important;
+}
+
