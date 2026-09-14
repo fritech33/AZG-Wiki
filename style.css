@@ -16,10 +16,10 @@ nav > a {
   border-color: var(--tw-prose-headings);
 }
 
-.link {
+h1, h2, .link {
     color: rgb(var(--primary-dark));
 }
 
-.dark .link {
+.dark :is(h1, h2, .link) {
     color: rgb(var(--primary-light));
 }
