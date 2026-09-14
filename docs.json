@@ -55,5 +55,8 @@
         "hidden": true
       }
     ]
+  },
+  "styling": {
+    "eyebrows": "breadcrumbs"
   }
 }
