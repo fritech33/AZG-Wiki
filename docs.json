@@ -18,12 +18,7 @@
         "href": "mailto:simon.lauber@gmx.ch",
         "label": "Feedback"
       }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Feedback",
-      "href": "mailto:simon.lauber@gmx.ch"
-    }
+    ]
   },
   "search": {
     "prompt": "Suchen oder fragen …"
