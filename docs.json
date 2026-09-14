@@ -21,7 +21,7 @@
     ]
   },
   "search": {
-    "prompt": "Suchen oder fragen …"
+    "prompt": "Suchen …"
   },
   "contextual": {
     "options": ["copy", "view", "chatgpt", "claude"]
