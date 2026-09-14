@@ -10,7 +10,7 @@
   "favicon": "/favicon.svg",
   "logo": {
     "light": "/logo/light.png",
-    "dark": "/logo/dark.svg"
+    "dark": "/logo/dark.png"
   },
   "navbar": {
     "links": [
