@@ -27,8 +27,13 @@
     "timestamp": true
   },
   "navigation": {
-    "pages": [
-      "Start",
+    "groups": [
+      {
+        "group": "Überblick",
+        "pages": [
+          "Start"
+        ]
+      },
       {
         "group": "AZG-Regelungen",
         "pages": [
