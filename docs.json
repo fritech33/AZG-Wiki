@@ -37,7 +37,8 @@
             "group": "Überblick",
             "pages": [
               "Start"
-            ]
+            ],
+            "expanded": true
           },
           {
             "group": "AZG-Regelungen",
@@ -47,7 +48,8 @@
               "Die_Ruheschicht",
               "Die_Ruhetage",
               "Ferien"
-            ]
+            ],
+            "expanded": true
           }
         ]
       }
