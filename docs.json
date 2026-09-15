@@ -27,7 +27,14 @@
     "timestamp": true
   },
   "navigation": {
-    "groups": []
+    "pages": [
+      "Arbeitszeit_pro_Arbeitstag",
+      "Die_Ruheschicht",
+      "Die_Ruhetage",
+      "Ferien",
+      "Pausen_und_Arbeitsunterbrechung",
+      "Start"
+    ]
   },
   "styling": {
     "eyebrows": "breadcrumbs"
