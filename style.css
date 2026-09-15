@@ -35,3 +35,25 @@ h1, h2, .link {
 .dark .callout {
     filter: saturate(.5);
 }
+
+/* enlarge */
+
+html {
+  font-size: 24px;
+}
+
+@layer utilities {
+    @media (width >= 1200pt) {
+        .xl\:flex-col {
+            flex-direction: column;
+        }
+    }
+}
+
+@layer utilities {
+    @media (width >= 1200pt) {
+        .xl\:flex {
+            display: flex;
+        }
+    }
+}
