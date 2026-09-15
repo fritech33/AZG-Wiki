@@ -27,3 +27,7 @@ h1, h2, .link {
 .dark :is(h1, h2, .link) {
     color: rgb(var(--primary-light));
 }
+
+#content-area h2:not(:first-of-type) {
+    margin-top: 36pt;
+}
