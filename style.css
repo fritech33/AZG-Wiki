@@ -36,6 +36,12 @@ h1, h2, .link {
     filter: saturate(.5);
 }
 
+/* make the imprint subtle */
+
+#content > span:last-of-type {
+    opacity: .5;
+}
+
 /* enlarge */
 
 html {
