@@ -43,9 +43,17 @@ html {
 }
 
 @layer utilities {
+    .lg\:sticky {
+        position: 
+    }
     .lg\:block {
         display: none !important;
     }
+    .lg\:hidden {
+        display: flex !important;
+    }
+
+  
     .xl\:flex {
         display: none !important;
     }
@@ -54,7 +62,11 @@ html {
         .lg\:block {
             display: block !important;
         }
+        .lg\:hidden {
+            display: none !important;
+        }
     }
+  
     @media (width >= 1600pt) {
         .xl\:flex {
             display: flex !important;
