@@ -1,3 +1,8 @@
+/* Scale everything to roughly 2x */
+html {
+  font-size: 32px;
+}
+
 /* Blendet die Buttons im Header/Sidebar visuell aus */
 header button:not(.w-full), #localization-select-trigger, #search-bar-entry {
   display: none !important;
@@ -34,26 +39,4 @@ h1, h2, .link {
 
 .dark .callout {
     filter: saturate(.5);
-}
-
-/* enlarge */
-
-html {
-  font-size: 24px;
-}
-
-@layer utilities {
-    @media (width >= 1200pt) {
-        .xl\:flex-col {
-            flex-direction: column;
-        }
-    }
-}
-
-@layer utilities {
-    @media (width >= 1200pt) {
-        .xl\:flex {
-            display: flex;
-        }
-    }
 }
