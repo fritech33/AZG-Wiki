@@ -31,3 +31,7 @@ h1, h2, .link {
 #content-area h2:not(:first-of-type) {
     margin-top: 36pt;
 }
+
+.dark .callout {
+    filter: saturate(.5);
+}
