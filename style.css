@@ -43,17 +43,21 @@ html {
 }
 
 @layer utilities {
+    .lg\:block {
+        display: none !important;
+    }
+    .xl\:flex {
+        display: none !important;
+    }
+  
     @media (width >= 1200pt) {
         .lg\:block {
-            display: block;
+            display: block !important;
         }
     }
     @media (width >= 1600pt) {
-        .xl\:flex-col {
-            flex-direction: column;
-        }
         .xl\:flex {
-            display: flex;
+            display: flex !important;
         }
     }
 }
