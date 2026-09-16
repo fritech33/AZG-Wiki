@@ -56,7 +56,7 @@ h1, h2, .link {
 .callout:last-of-type {
     opacity: .6;
     padding: 16pt 28pt;
-}}
+}
 
 .callout:has(+ .callout:last-of-type) div:first-child,
 .callout:last-of-type div:first-child {
