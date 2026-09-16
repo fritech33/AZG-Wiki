@@ -47,6 +47,16 @@ h1, h2, .link {
     opacity: .5;
 }
 
+.callout:has(+ .callout:last-of-type),
+.callout:last-of-type {
+    opacity: .6;
+}
+
+.callout:has(+ .callout:last-of-type) div:first-child,
+.callout:last-of-type div:first-child {
+    display: none;
+}
+
 /* spacing */
 
 .mdx-content + div {
