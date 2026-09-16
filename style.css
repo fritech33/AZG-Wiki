@@ -46,6 +46,16 @@ h1, h2, .link {
     opacity: .5;
 }
 
+/* spacing */
+
+.mdx-content + div {
+    padding: 0 !important;
+}
+
+div:has(+ footer) {
+    display: none !important;
+}
+
 /* enlarge */
 
 @layer utilities {
