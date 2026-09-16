@@ -83,7 +83,7 @@ h1, h2, .link {
       }
   }
 
-  @media (width >= 400pt) {
+  @media (width >= 400pt) and (height >= 400pt) {
         html {
           font-size: 24px;
         }
