@@ -4,7 +4,7 @@
   "name": "AZG-Wiki",
   "colors": {
     "primary": "#16A34A",
-    "light": "#4ADE80",
+    "light": "#4fc47a",
     "dark": "#166534"
   },
   "favicon": "/favicon.svg",
