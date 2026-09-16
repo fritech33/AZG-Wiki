@@ -13,7 +13,7 @@ header button:not(.w-full), #localization-select-trigger, #search-bar-entry {
 
 #footer {
     margin-top: 12pt !important;
-    padding: 8pt 0px !important;
+    padding: 20pt 0 8pt 0 !important
 }
 
 nav > a {
@@ -50,7 +50,7 @@ h1, h2, .link {
 /* spacing */
 
 .mdx-content + div {
-    padding: 0 !important;
+    padding: 0 0 24pt 0 !important
 }
 
 div:has(+ footer) {
