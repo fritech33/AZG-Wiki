@@ -1,3 +1,8 @@
+/* Scale everything to roughly 2x */
+html {
+  font-size: 32px;
+}
+
 /* Blendet die Buttons im Header/Sidebar visuell aus */
 header button:not(.w-full), #localization-select-trigger, #search-bar-entry {
   display: none !important;
