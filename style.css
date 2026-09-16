@@ -49,39 +49,39 @@ h1, h2, .link {
 /* enlarge */
 
 @layer utilities {
-        html {
-          font-size: 18px;
-        }
-        
-        .lg\:sticky {
-            position: 
-        }
-        .lg\:block {
-            display: none !important;
-        }
-        .lg\:hidden {
-            display: flex !important;
-        }
-    
-      
-        .xl\:flex {
-            display: none !important;
-        }
-      
-        @media (width >= 750pt) {
-            .lg\:block {
-                display: block !important;
-            }
-            .lg\:hidden {
-                display: none !important;
-            }
-        }
-      
-        @media (width >= 1080pt) {
-            .xl\:flex {
-                display: flex !important;
-            }
-        }
+  html {
+    font-size: 18px;
+  }
+  
+  .lg\:sticky {
+      position: 
+  }
+  .lg\:block {
+      display: none !important;
+  }
+  .lg\:hidden {
+      display: flex !important;
+  }
+
+
+  .xl\:flex {
+      display: none !important;
+  }
+
+  @media (width >= 750pt) {
+      .lg\:block {
+          display: block !important;
+      }
+      .lg\:hidden {
+          display: none !important;
+      }
+  }
+
+  @media (width >= 1080pt) {
+      .xl\:flex {
+          display: flex !important;
+      }
+  }
 
   @media (width >= 400pt) {
         html {
