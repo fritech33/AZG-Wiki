@@ -48,12 +48,11 @@ h1, h2, .link {
 
 /* enlarge */
 
-html {
-  font-size: 24px;
-}
-
 @layer utilities {
-    @media (width >= 400pt) {
+        html {
+          font-size: 18px;
+        }
+        
         .lg\:sticky {
             position: 
         }
@@ -69,7 +68,7 @@ html {
             display: none !important;
         }
       
-        @media (width >= 1200pt) {
+        @media (width >= 750pt) {
             .lg\:block {
                 display: block !important;
             }
@@ -78,7 +77,42 @@ html {
             }
         }
       
-        @media (width >= 1600pt) {
+        @media (width >= 1080pt) {
+            .xl\:flex {
+                display: flex !important;
+            }
+        }
+
+  @media (width >= 400pt) {
+        html {
+          font-size: 24px;
+        }
+        
+        .lg\:sticky {
+            position: 
+        }
+        .lg\:block {
+            display: none !important;
+        }
+        .lg\:hidden {
+            display: flex !important;
+        }
+    
+      
+        .xl\:flex {
+            display: none !important;
+        }
+      
+        @media (width >= 1000pt) {
+            .lg\:block {
+                display: block !important;
+            }
+            .lg\:hidden {
+                display: none !important;
+            }
+        }
+      
+        @media (width >= 1440pt) {
             .xl\:flex {
                 display: flex !important;
             }
