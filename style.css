@@ -16,6 +16,14 @@ header button:not(.w-full), #localization-select-trigger, #search-bar-entry {
     border-bottom: 1px solid rgb(var(--primary));
 }
 
+#navigation-items {
+    margin-top: 10pt;
+}
+
+h2:has(> button) {
+    margin-bottom: 12pt;
+}
+
 #footer {
     margin-top: 12pt !important;
     padding: 20pt 0 8pt 0 !important
