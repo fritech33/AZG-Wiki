@@ -12,7 +12,8 @@ header button:not(.w-full), #localization-select-trigger, #search-bar-entry {
 }
 
 #footer {
-  padding: 8pt 0px !important;
+    margin-top: 12pt !important;
+    padding: 8pt 0px !important;
 }
 
 nav > a {
