@@ -75,5 +75,10 @@
   "description": "Eine Übersicht über das Arbeitszeitgesetz im Fahrdienst (Schweiz).",
   "interaction": {
     "drilldown": true
+  },
+  "background": {
+    "color": {
+      "light": "#FADADD"
+    }
   }
 }
