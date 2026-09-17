@@ -60,14 +60,14 @@ h1, h2, .link {
     opacity: .5;
 }
 
-.callout:has(+ .callout:last-of-type),
-.callout:last-of-type {
+mdx-content > .callout:has(+ .callout:last-of-type),
+mdx-content > .callout:last-of-type {
     opacity: .6;
     padding: 16pt 28pt;
 }
 
-.callout:has(+ .callout:last-of-type) div:first-child,
-.callout:last-of-type div:first-child {
+mdx-content > .callout:has(+ .callout:last-of-type) div:first-child,
+mdx-content > .callout:last-of-type div:first-child {
     display: none;
 }
 
